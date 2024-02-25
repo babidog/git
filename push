@@ -1,0 +1,10 @@
+# HOW TO PUSH AN EXISTING PROJECT TO GITHUB
+# 1) Create a free github account
+# 2) Install git on your local machine
+# 3) Sign in to github and create a new empty repo
+# 4) From your terminal, navigate to the project folder on you would like to push to github, the run the following commands
+#    $ git init
+#    $ git add -A
+#    $ git commit -m 'Added my project'
+#    $ git remote add origin git@github.com:sammy/my-new-project.git
+#    $ git push -u -f origin main
